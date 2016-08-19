@@ -3,6 +3,8 @@ alias clrmenus='/System/Library/Frameworks/CoreServices.framework/Frameworks/Lau
 alias ll="ls -aloFG"
 alias clr='clear;echo "Currently logged in on $(tty), as $(whoami) in directory $(pwd)."'
 alias now='echo -e "The time is now $(date +%r) on $(date +%A), $(date +%B) $(date +%d) $(date +%Y)."'
+alias unhide='defaults write com.apple.finder AppleShowAllFiles True; killall Finder'
+alias hide='defaults write com.apple.finder AppleShowAllFiles False; killall Finder'
 
 # Git functions
 function parse_git_branch_and_add_brackets {
