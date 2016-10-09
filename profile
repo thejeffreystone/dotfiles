@@ -25,10 +25,13 @@ export EDITOR="$VISUAL"
 # My Command Prompt
 export PS1="\u@\h: \W\[\033[0;32m\]\$(parse_git_branch_and_add_brackets) \[\033[0m\]\$ "
 
+export PYTHONPATH=~/code/splunk-sdk-python
+
 # My Path
 export PATH=.:~/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/local/mysql/bin:/usr/local/php:/opt/local/bin:/opt/local/sbin:$PATH
 export PATH="$(brew --prefix josegonzalez/php/php56)/bin:$PATH"
 # Setting PATH for Python 3.5
 # The orginal version is saved in .profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
+export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
 export PATH
