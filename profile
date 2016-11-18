@@ -35,3 +35,4 @@ export PATH="$(brew --prefix josegonzalez/php/php56)/bin:$PATH"
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
 export PATH
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi

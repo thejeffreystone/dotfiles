@@ -84,3 +84,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export PYTHONPATH=$PYTHONPATH:/usr/local/lib/python2.7/site-packages
+
